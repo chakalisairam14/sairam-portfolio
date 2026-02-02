@@ -84,8 +84,18 @@ export default function Home() {
         {skill}
       </span>
     ))}
+    {/* Leadership & Creative Section */}
+<section className="max-w-4xl mx-auto px-6 py-20 text-center">
+  <h2 className="text-2xl font-bold mb-4 italic text-zinc-300">Not just an engineer, but a builder.</h2>
+  <p className="text-zinc-500 leading-relaxed">
+    Beyond AI, I lead. From organizing the <strong>NISHKARSNA</strong> symposium to coordinating 
+    IEEE Hackathons, I manage the people as well as the pixels. I also run 
+    <strong> @divineaura.studio_</strong>, blending AI generation with digital branding.
+  </p>
+</section>
   </div>
 </section>
+
             </div>
           </div>
         </div>
