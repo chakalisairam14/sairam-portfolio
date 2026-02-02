@@ -47,6 +47,45 @@ export default function Home() {
               {['Random Forest', 'XGBoost', 'IoT', 'NASA Dataset'].map(t => (
                 <span key={t} className="px-3 py-1 bg-zinc-900 text-zinc-400 text-xs rounded-full border border-zinc-800">{t}</span>
               ))}
+
+              {/* Skills & Certifications Section */}
+<section className="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-900">
+  <h2 className="text-3xl font-bold mb-12 flex items-center gap-3">
+    <ShieldCheck className="text-blue-500" /> Credentials & Expertise
+  </h2>
+  
+  <div className="grid md:grid-cols-3 gap-6">
+    {/* Certification 1 */}
+    <div className="p-6 bg-zinc-950 border border-zinc-800 rounded-2xl">
+      <h4 className="text-blue-400 font-mono text-xs mb-2 uppercase">Infosys Springboard</h4>
+      <p className="font-bold text-white">NLP & Deep Learning Specialization</p>
+      <p className="text-zinc-500 text-sm mt-2">Certified in advanced neural network architectures and text processing.</p>
+    </div>
+
+    {/* Certification 2 */}
+    <div className="p-6 bg-zinc-950 border border-zinc-800 rounded-2xl">
+      <h4 className="text-blue-400 font-mono text-xs mb-2 uppercase">Cognizant</h4>
+      <p className="font-bold text-white">AI Job Simulation</p>
+      <p className="text-zinc-500 text-sm mt-2">Completed practical AI engineering tasks in a corporate simulation environment.</p>
+    </div>
+
+    {/* Certification 3 */}
+    <div className="p-6 bg-zinc-950 border border-zinc-800 rounded-2xl">
+      <h4 className="text-blue-400 font-mono text-xs mb-2 uppercase">Great Learning</h4>
+      <p className="font-bold text-white">Python for Data Science</p>
+      <p className="text-zinc-500 text-sm mt-2">Core mastery of data manipulation and Pythonic engineering.</p>
+    </div>
+  </div>
+
+  {/* Technical Skill Cloud */}
+  <div className="mt-12 flex flex-wrap justify-center gap-4">
+    {['PyTorch', 'TensorFlow', 'Scikit-Learn', 'FastAPI', 'MySQL', 'React', 'AWS'].map((skill) => (
+      <span key={skill} className="px-6 py-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-full font-medium">
+        {skill}
+      </span>
+    ))}
+  </div>
+</section>
             </div>
           </div>
         </div>
